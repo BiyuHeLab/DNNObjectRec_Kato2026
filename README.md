@@ -1,6 +1,6 @@
 # Kato M., et al., iScience, 2026
 This repository contains the data and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**.
-This dataset will also be deposited to [Brain-Score](https://www.brain-score.org/) as a behavioral benchmark, allowing anyone to evaluate a model's outputs on our image set and directly compare them with human responses.
+This dataset will also be deposited in [Brain-Score](https://www.brain-score.org/) as behavioral benchmarks, enabling evaluation of any model's outputs on our image set and direct comparison with human responses.
 
 ## Organization
 ### **analysis/**
