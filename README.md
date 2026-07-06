@@ -1,5 +1,5 @@
 # Kato M., et al., iScience, 2026
-This repository contains the scripts and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**
+This repository contains the scripts and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**.
 This dataset will also be deposited to [Brain-Score](https://www.brain-score.org/) as a behavioral benchmark.
 
 ## Organization
