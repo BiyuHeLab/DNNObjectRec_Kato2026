@@ -1,5 +1,5 @@
 clear;clc
-rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2025';
+rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2026';
 addpath([rootD '/codes'])
 savedir   = [rootD '/analysis/FigS6_RSA'];
 if ~exist(savedir,'dir');mkdir(savedir);end

@@ -1,6 +1,6 @@
 %% Exp1
 clear;clc
-rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2025';
+rootD = '/isilon/LFMI/VMdrive/Mugihiko/GlobalShape/Behav/DNNObjectRec_Kato2026';
 addpath([rootD '/codes'])
 datadir = [rootD '/analysis/Fig3_large_scale_scatter'];
 savedir = [rootD '/analysis/FigS3_diffusion_model'];
