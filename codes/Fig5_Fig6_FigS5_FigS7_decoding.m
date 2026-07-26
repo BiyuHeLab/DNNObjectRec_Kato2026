@@ -120,7 +120,7 @@ for comb = 1:length(cnntypes)
             scatter(length(layerlab),mean(dat)*100,50,mark{cnn},'MarkerEdgeColor',col(cnn,:),'LineWidth',1,...
                 'MarkerFaceColor',col(cnn,:),'MarkerFaceAlpha',0.55)
             ylim([0 100])
-            p = mean(accs(v,:) < squeeze(null(:,v,:)),1);
+            p = (sum(accs(v,:) <= squeeze(null(:,v,:)), 1) + 1) / (size(null,1) + 1);
             p_bf = p*length(layerlab);
             h = p_bf<0.05;
             text(find(h)-jit(cnn),repmat(98,1,length(find(h))),'*','HorizontalAlignment','center','FontSize',10,'Color',col(cnn,:))
@@ -202,7 +202,7 @@ for comb = 1:length(cnntypes) % comb = 4
             scatter(length(layerlab),mean(dat)*100,50,mark{cnn},'MarkerEdgeColor',col(cnn,:),'LineWidth',1,...
                 'MarkerFaceColor',col(cnn,:),'MarkerFaceAlpha',0.55)
             ylim([0 100])
-            p = mean(accs(v,1:4) < squeeze(null(:,v,1:4)),1);
+            p = (sum(accs(v,1:4) <= squeeze(null(:,v,1:4)), 1) + 1) / (size(null,1) + 1);
             p_bf = p*4;
             h = p_bf<0.05;
             text(find(h)-jit(cnn),repmat(98,1,length(find(h))),'*','HorizontalAlignment','center','FontSize',10,'Color',col(cnn,:))

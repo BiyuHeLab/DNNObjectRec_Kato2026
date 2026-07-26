@@ -172,7 +172,7 @@ for type = 1:length(imtype)
     for ii = 1:size(kappa,2)-1
         diff_avg_s = mean(kappa(:,end)) - mean(kappa(:,ii),'omitnan');
         if kappa(1,ii) ~=-1 && diff_avg_s ~=0
-            p_tmp = sum(stat_d(:,ii) > diff_avg_s)/size(stat_d,1);
+            p_tmp = (sum(stat_d(:,ii) > diff_avg_s)+1)/(size(stat_d,1)+1);
             p_bf(ii) = p_tmp*(sum(kappa(1,:)~=-1)-1);
             if p_bf(ii) <=0.05
                 st = '*';
