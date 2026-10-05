@@ -15,7 +15,7 @@
 </p>
 
 ## Introduction
-This repository contains the data and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**   
+This repository contains the data and code to reproduce the figures in the manuscript ***Systematic image perturbations reveal persistent gaps between human and machine vision***.   
 This dataset has also been released on [Brain-Score](https://www.brain-score.org/) as a behavioral benchmark, enabling the evaluation of any model's outputs on our image set ([Brain-Score GitHub repository](https://github.com/brain-score/vision)). **We strongly recommend using Brain-Score, as it provides better reproducibility across different local environments.** Note that model performance may differ slightly from the values reported in the paper due to image processing performed within Brain-Score, but this should not substantially affect the overall results.
 
 ## Organization
