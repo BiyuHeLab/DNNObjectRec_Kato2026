@@ -1,7 +1,22 @@
 [![DOI](https://zenodo.org/badge/1055089237.svg)](https://doi.org/10.5281/zenodo.21227163)
-# Kato M., et al., iScience, 2026
-This repository contains the data and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**.
-This dataset will also be deposited in [Brain-Score](https://www.brain-score.org/) as behavioral benchmarks, enabling evaluation of any model's outputs on our image set and direct comparison with human responses.
+
+<br />
+
+<h2 align="center">Systematic image perturbations reveal persistent gaps between human and machine vision</h2>
+
+<p align="center">
+  Mugihiko Kato, Biyu J. He<br>
+  <b><em>iScience (2026)</em></b><br>
+  <a href="https://www.cell.com/iscience/fulltext/S2589-0042(26)02748-3">Link to paper</a>
+</p>
+
+<p align="center">
+  <img src="graphical_abstract.jpg" width="500">
+</p>
+
+## Introduction
+This repository contains the data and code to reproduce the figures in the manuscript **Systematic image perturbations reveal persistent gaps between human and machine vision**   
+This dataset has also been released on [Brain-Score](https://www.brain-score.org/) as a behavioral benchmark, enabling the evaluation of any model's outputs on our image set ([Brain-Score GitHub repository](https://github.com/brain-score/vision)). **We strongly recommend using Brain-Score, as it provides better reproducibility across different local environments.** Note that model performance may differ slightly from the values reported in the paper due to image processing performed within Brain-Score, but this should not substantially affect the overall results.
 
 ## Organization
 ### **analysis/**
